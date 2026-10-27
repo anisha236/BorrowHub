@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+input {
+    width: 350px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+button {
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+.item-card {
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-card h2 {
+    font-size: 20px;
+}
+
+.item-card p {
+    font-size: 16px;
+}
+.items-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item-card button {
+    background-color: #222;
+    color: white;
+    border-radius: 8px;
+}
+
+.item-card button:hover {
+    transform: scale(1.05);
+}
+/* Add Item Page */
+
+body {
+    box-sizing: border-box;
+}
+
+body > input {
+    width: 400px;
+    display: block;
+    margin: 15px auto;
+}
+
+body > button {
+    margin-top: 20px;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+select {
+    width: 400px;
+    padding: 12px;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.dashboard-card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card h3 {
+    font-size: 24px;
+}
+
+.dashboard-card button {
+    background-color: #222;
+    color: white;
+}
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    input,
+    textarea,
+    select {
+        width: 90%;
+    }
+
+    .item-card,
+    .dashboard-card {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+}
